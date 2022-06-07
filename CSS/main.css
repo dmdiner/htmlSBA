@@ -243,6 +243,7 @@ table td {
 .box-left-mini .behind_container {
     position: relative;
     top: -600px;
+    right: -100px;
 }
 .box-left-mini .behind {
     display: block;
