@@ -1,3 +1,16 @@
+body {
+text-align: center;
+}
+
+.center{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.body2 {
+  text-align: left;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -147,12 +160,15 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   width: 30%;
+ 
+
 }
 
 table td {
   border: solid 1px #666;
   width: 110px;
   word-wrap: break-word;
+
 }
 
 
@@ -208,4 +224,27 @@ table td {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+
+.box-left-mini{
+    float:left;
+    width:300;
+    height:200;
+}
+
+.box-left-mini .front {
+    display: block;
+    z-index: 5;
+    position: relative;
+}
+
+.box-left-mini .behind_container {
+    position: relative;
+    top: -600px;
+}
+.box-left-mini .behind {
+    display: block;
+    z-index: 3;
 }
